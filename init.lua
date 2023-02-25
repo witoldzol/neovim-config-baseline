@@ -1,2 +1,1 @@
-require('wito.remap')
-print('hello')
+require("wito")

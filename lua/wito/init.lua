@@ -1,1 +1,3 @@
-print('hello from wito')
+require("wito.remap")
+require("wito.packer")
+require("wito.set")
