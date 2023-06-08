@@ -60,7 +60,16 @@ return require('packer').startup(function(use)
       require('Comment').setup()
     end
   }
-
   use 'sindrets/diffview.nvim'
-
+  
+  --File browser
+  use {
+    "nvim-neo-tree/neo-tree.nvim",
+    branch = "v2.x",
+    requires = {
+      "nvim-lua/plenary.nvim",
+      "nvim-tree/nvim-web-devicons",
+      "MunifTanjim/nui.nvim",
+    }
+  }
 end)
