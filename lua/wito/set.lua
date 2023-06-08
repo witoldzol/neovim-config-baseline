@@ -12,6 +12,7 @@ vim.opt.hlsearch = false
 vim.opt.incsearch = true
 -- colors
 vim.opt.termguicolors = true
+vim.cmd [[colorscheme onedark]]
 -- buffer lines before you hit end of file
 vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
@@ -19,3 +20,8 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 -- shows line length
 -- vim.opt.colorcolumn = "180"
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+
+-- vim grep - ignore files & folders
+vim.opt.wildignore = "target/**,**/venv/**"
