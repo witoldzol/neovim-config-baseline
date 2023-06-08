@@ -19,6 +19,7 @@ return require('packer').startup(function(use)
 
   -- Treesitter ( syntax color )
   use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
+  use 'nvim-treesitter/nvim-treesitter-context'
 
   -- Harpoon
   use('nvim-lua/plenary.nvim')
