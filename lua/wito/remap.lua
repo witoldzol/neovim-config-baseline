@@ -1,5 +1,5 @@
 vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
+vim.keymap.set("n", "<leader>e", vim.cmd.NeoTreeRevealToggle)
 -- keep cursor in the same place when you use J
 vim.keymap.set("n", "J", "mzJ`z")
 -- keep cursor in the middle when jumping up / down
